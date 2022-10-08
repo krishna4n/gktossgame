@@ -1,0 +1,44 @@
+.container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  border-radius: 10px;
+}
+.heading {
+  color: #a35200;
+}
+.toss-coin {
+  height: 100px;
+}
+.button {
+  background-color: #f9d423;
+  outline: none;
+  border-width: 0px;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 10px;
+  color: #a35200;
+  font-weight: bold;
+}
+.result {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.result-desc {
+  font-size: 12px;
+  margin-right: 20px;
+}
